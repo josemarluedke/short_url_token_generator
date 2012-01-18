@@ -7,7 +7,7 @@ Install
 -------
 
 Just add this to your Gemfile:
-  `gem 'short_url_token_generator'` (not yet published in RubyGems.org)
+  `gem 'short_url_token_generator'`
 
 And run your bundler:
   `bundle install`
