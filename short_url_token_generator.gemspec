@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "short_url_token_generator"
-  s.version     = "0.1.0.pre2"
+  s.version     = "0.1.0"
   s.description = "Short url token generator, use to generate/decode tokens for urls"
   s.summary     = "Short url token generator"
   s.author      = "Josemar Davi Luedke"

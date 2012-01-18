@@ -41,4 +41,4 @@ Example
 License
 -------
 
-Copyright (C) 2012 Josemar Davi Luedke <josemarluedke@gmail.com> released under the MIT license
+Copyright (C) 2012 Josemar Davi Luedke <josemarluedke@gmail.com>, released under the MIT license.

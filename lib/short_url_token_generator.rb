@@ -6,6 +6,7 @@ module ShortUrlTokenGenerator
   end
   
   def self.decode token
+    return -1 if token.length > 15
     num = i = 0
     token.chars.to_a.reverse_each do |t|
       num += mapping.index(t) * mapping.length**i unless mapping.index(t).nil?

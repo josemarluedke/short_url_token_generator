@@ -40,5 +40,9 @@ describe ShortUrlTokenGenerator do
     it 'should be return correct num of token' do
       ShortUrlTokenGenerator::decode("#{ShortUrlTokenGenerator::mapping[2]}#{ShortUrlTokenGenerator::mapping[10]}").should eq 134
     end
+    
+    it 'should be return -1, because token is > 15' do
+      ShortUrlTokenGenerator::decode("oJC8RZuYg2pTrAIK").should eq -1
+    end
   end
 end
