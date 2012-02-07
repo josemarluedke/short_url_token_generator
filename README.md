@@ -15,12 +15,10 @@ And run your bundler:
 Usage
 -----
 
-Generate
---------
+### Generate
     ShortUrlTokenGenerator.generate(134) # => "Cp"
 
-Decode
-------
+### Decode
     ShortUrlTokenGenerator.decode("Cp") # => 134
 
 Example
@@ -44,14 +42,17 @@ Example
         end
     end
 
+Build Status
+------------
+
+[![Build Status](http://travis-ci.org/josemarluedke/short_url_token_generator.png)](http://travis-ci.org/josemarluedke/short_url_token_generator)
+
 Changelog
 -------
 
-* 0.2.0
-  Migrated from Module to Class, because use Module don't make sense.
+* **0.2.0** Migrated from Module to Class, because use Module don't make sense.
 
-* 0.1.0
-  Released firt version
+* **0.1.0** Released firt version
 
 License
 -------
