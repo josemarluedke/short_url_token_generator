@@ -15,7 +15,13 @@ And run your bundler:
 Usage
 -----
 
-pending
+Generate
+--------
+    ShortUrlTokenGenerator.generate(134) # => "Cp"
+
+Decode
+------
+    ShortUrlTokenGenerator.decode("Cp") # => 134
 
 Example
 -------
@@ -30,13 +36,22 @@ Example
         end
       private
         def generate_token num
-          token = ShortUrlTokenGenerator::generate num
+          token = ShortUrlTokenGenerator.generate num
           if Url.count(conditions: {:token => token}) > 0
             token = generate_token num + 1
           end
           token
         end
     end
+
+Changelog
+-------
+
+* 0.2.0
+  Migrated from Module to Class, because use Module don't make sense.
+
+* 0.1.0
+  Released firt version
 
 License
 -------
