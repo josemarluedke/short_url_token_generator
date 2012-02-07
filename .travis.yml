@@ -1,0 +1,7 @@
+rvm: 1.9.2
+
+script: "bundle exe rspec spec"
+
+branches:
+  only:
+    - master
